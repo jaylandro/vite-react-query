@@ -2,7 +2,7 @@ import * as React from "react";
 import { PersistQueryClientProvider } from "@tanstack/react-query-persist-client";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { queryClient, persister } from "./store"
-import { Posts, PostDetail } from "./pages/posts"
+import { Posts, PostDetail } from "./pages/Posts"
 import './App.css';
 
 export function App() {
